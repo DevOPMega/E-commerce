@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*,
+*::before,*::after{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: Roboto;
+    background-color: #FFF1DC;
+    letter-spacing: 1px;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+    transition: opacity 0.6s ease;
+}
+a:hover{
+    opacity: 0.7;
+}
+
+/* sign in container  */
+.signin-container{
+    background-color: #191825;
+    width:30%;
+    margin:50px auto;
+    padding:40px 50px;
+    color:#fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* logo  */
+.logo a{
+    font-size: 1.8rem;
+    font-weight:bold;
+}
+
+.logo a span{
+    color: yellow;
+}
+.form-container{
+    margin-top: 30px;
+}
+.form-container h1{
+    text-align: left;
+    font-size:1.6rem;
+    font-weight:400;
+}
+.form {
+    text-align:left;
+    margin:15px 0;
+}
+.input-label{
+    font-size:0.8rem;
+    font-weight: 800;
+}
+.form-input-text{
+    width:100%;
+    margin:8px 0 15px 0;
+    font-size: 0.8rem;
+    padding:8px 9px;
+    border:1px solid #fff;
+    background-color:transparent;
+    color:#fff;
+    opacity:0.5;
+    outline:none;
+    border-radius:4px;
+}
+.submit-btn{
+    width:100%;
+    font-size: 0.8rem;
+    padding:10px 0;
+    border:none;
+    border-radius:4px;
+    background-color: #00425A;
+    color:#fff;
+}
+.submit-btn:hover{
+    opacity: 0.7;
+}
+.signin-description{
+    margin:25px 0;
+    text-align: left;
+}
+.signin-description-span{
+    font-size:0.70rem;
+}
+.signin-help{
+    margin:30px 0;
+    text-align: left;    
+}
+.signin-help-span{
+    font-size: 0.8rem;
+}

@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*,
+*::before,*::after{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: Roboto;
+    background-color: #FFF1DC;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+    transition: opacity 0.6s ease;
+}
+a:hover{
+    opacity: 0.7;
+}
+
+/* icons  */
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+    color:#fff;
+    font-size:1.6rem;
+}
+
+/* Navbar of website  */
+.navbar{
+    padding:15px 25px;
+    background-color:#191825;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo a{
+    font-size: 1.8rem;
+    font-weight:bold;
+    
+}
+
+.logo a span{
+    color: yellow
+}
+
+.searchbar{
+    background-color: #fff;
+    position: relative;
+    width: 500px;
+    border-radius: 8px;
+}
+.searchbar select{
+    padding:0 15px;
+    border:none;
+    background-color: transparent;
+    width:20px;
+    height:30px;
+    
+}
+.searchbar input[type=text]{
+    width:420px;
+    padding:8px;
+    font-size:0.9rem;
+    outline:none;
+    border:none;
+    background:transparent
+}
+.searchbar button{
+    position: absolute;
+    top:0;right:0;
+    height: 100%;
+    width:50px;
+    padding:4px;
+    background-color: #00425A;
+    border: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    transition: background-color 0.5s ease
+}
+.searchbar button:hover{
+    background-color: #1F8A70;
+}
+.signin:hover {
+    opacity:0.6
+}
+.cart-count{
+    color:#fff;
+    position: relative;
+    bottom:5px;
+    left:3px;
+}
+
+/* navbar menu option  */
+.navbar-menu-option{
+    background-color: #00425A;
+}
+.navbar-menu-option ul{
+    padding:0 10px;
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+}
+.navbar-menu-option ul li{
+    font-size:0.9rem;
+    padding:10px 0;
+    border:1px solid transparent;
+    transition: border-color 1 ease
+}
+.navbar-menu-option ul li:hover{
+    border-color: #837979;
+}
+.navbar-menu-option ul li a{
+    padding:0 4px
+}
+
+/* carousel  */
+.carousel{
+    width:100%;
+    position: relative;
+}
+.carousel img{
+    width:100%;
+}
+.carousel-btn{    
+    background-color: transparent;
+    border:none;
+    position: absolute;
+    top:25%;
+    transform: translate(-50%,-50%) scale(2);
+    transition:opacity 0.2s ease;
+}
+.carousel-btn:hover{
+    opacity: 0.5;
+}
+.carousel-left{
+    left:80px;
+}
+.carousel-right{
+    right:40px;
+}
+
+/* Quad image card  */
+.quad-img-card-container{
+    position: relative;
+    top:-250px;
+    margin-bottom: -250px;
+    padding:40px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    
+}
+.quad-img-cards{
+    width:400px;
+    padding:20px;
+    margin-bottom:20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.card-img{
+    margin-top:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-img figure{
+    width:150px;
+    margin-bottom:25px;
+}
+.card-img figure img{
+    width:150px;
+}
+.card-img figure figcaption{
+    color: #000;
+    padding:5px 0;
+    font-size: 0.8rem;
+    margin-top:-5px;
+}
+
+/* Carouse card  */
+.carousel-card-container{
+    width:95%;
+    margin:auto;
+    padding:20px 20px;
+    background-color: #fff;
+    position: relative;
+}
+.carousel-card-roller{
+    display: flex;
+    padding:20px 0;
+    margin:0 30px 0 30px;
+    overflow-y:hidden;
+}
+.carousel-card{  
+    position: relative;                                                                                                                                                                                                                                                                                                                                                                                  
+    margin:30px 20px 30px 0;
+    padding:10px 30px;
+    font-size:0.72rem;
+    line-height: 20px;
+    transition: left 0.8s ease;
+}
+.carousel-card-img{
+    width:160px;
+    height: 130px;
+    /* padding:20px 10px; */
+    background-color: red  ;
+}
+.carousel-card-discount{
+    margin-top: 10px;
+}
+.carousel-card-discount span{
+    margin-top:10px;
+    color: rgb(185, 6, 60);
+    padding:2px 4px;
+}
+.carousel-card-discount span:first-child{
+    background-color:rgb(185,6,60);
+    color:#fff;
+}
+.carousel-card-btn{
+    z-index:2;
+    position: absolute;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color:rgb(185, 6, 60);
+    border:none;
+    padding:10px 0 10px 10px;
+    transition: opacity 0.3s ease;
+}
+.carousel-card-btn:hover{
+    opacity:0.9;
+}
+.carousel-card-btn-left{
+    left:30px;
+}
+.carousel-card-btn-right{
+    right:20px;
+}
